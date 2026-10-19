@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Funny Content, Movies & Websites</title>
+<style>
+:root{
+  --bg:#1a0b2e; --ink:#fff8e7; --muted:#cdb9ee;
+  --sun:#ffd23f; --pink:#ff4f9a; --green:#25d366; --sky:#3ec6ff; --card:#2b1650;
+  box-sizing:border-box;
+  padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{
+  margin:0; min-height:100vh; background:var(--bg); color:var(--ink);
+  font-family:"Trebuchet MS","Segoe UI",system-ui,sans-serif;
+  background-image:
+    radial-gradient(circle at 15% 8%,rgba(255,79,154,.35),transparent 40%),
+    radial-gradient(circle at 90% 30%,rgba(62,198,255,.25),transparent 38%),
+    radial-gradient(circle at 20% 95%,rgba(255,210,63,.2),transparent 40%);
+  background-attachment:fixed;
+}
+main{max-width:480px;margin:0 auto;padding:36px 20px 48px}
+.hero{text-align:center;margin-bottom:28px}
+.badge{
+  width:104px;height:104px;margin:0 auto 18px;border-radius:50%;
+  background:var(--sun);display:grid;place-items:center;font-size:56px;
+  border:4px solid var(--ink);box-shadow:6px 6px 0 var(--pink);
+  animation:wobble 2.4s ease-in-out infinite;
+}
+@keyframes wobble{0%,100%{transform:rotate(-6deg)}50%{transform:rotate(6deg)}}
+h1{margin:0 0 8px;font-size:34px;line-height:1.1;font-weight:900;letter-spacing:-.5px}
+h1 span{display:inline-block;background:var(--pink);padding:0 10px;border-radius:10px;transform:rotate(-2deg)}
+.tag{margin:0;color:var(--muted);font-size:16px;line-height:1.5}
+.links{display:flex;flex-direction:column;gap:16px;margin:0;padding:0;list-style:none}
+.btn{
+  display:flex;align-items:center;gap:16px;width:100%;padding:16px 18px;
+  border-radius:18px;border:3px solid var(--ink);text-decoration:none;color:#1a0b2e;
+  box-shadow:5px 5px 0 var(--ink);transition:transform .12s,box-shadow .12s;
+}
+.btn:hover{transform:translate(-2px,-2px);box-shadow:8px 8px 0 var(--ink)}
+.btn:active{transform:translate(4px,4px);box-shadow:1px 1px 0 var(--ink)}
+.btn:focus-visible{outline:4px solid var(--sky);outline-offset:3px}
+.ico{flex:none;width:48px;height:48px;border-radius:14px;background:#1a0b2e;display:grid;place-items:center}
+.ico svg{width:26px;height:26px;fill:#fff}
+.txt{display:flex;flex-direction:column;min-width:0;flex:1}
+.txt b{font-size:18px;font-weight:900}
+.txt small{font-size:14px;opacity:.8;overflow-wrap:anywhere}
+.go{font-size:22px;font-weight:900}
+.wa{background:var(--green)} .mail{background:var(--sun)} .biz{background:var(--pink)} .web{background:var(--sky)}
+.soon{background:var(--card);color:var(--ink);border-style:dashed;box-shadow:none;cursor:default}
+.soon:hover,.soon:active{transform:none;box-shadow:none}
+.soon .ico{background:var(--pink)}
+.pill{background:var(--sun);color:#1a0b2e;font-size:12px;font-weight:900;padding:4px 10px;border-radius:99px;transform:rotate(4deg)}
+.sec{margin:30px 0 14px;font-size:20px;font-weight:900;text-align:center}
+footer{margin-top:34px;text-align:center;color:var(--muted);font-size:14px}
+@media (prefers-reduced-motion:reduce){.badge{animation:none}.btn{transition:none}}
+</style>
+</head>
+<body>
+<main>
+  <header class="hero">
+    <div class="badge" aria-hidden="true">😂</div>
+    <h1>Funny Content<br>&amp; <span>Movies</span></h1>
+    <p class="tag">I make you laugh, I make movies, and I build websites for your business.</p>
+  </header>
+
+  <h2 class="sec">Let’s work together</h2>
+  <ul class="links">
+    <li>
+      <a class="btn wa" href="https://wa.me/2348022927540?text=Hello%2C%20I%20want%20to%20advertise%20with%20you." target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2a9.9 9.9 0 0 0-8.5 15l-1.5 5.5 5.6-1.5A9.9 9.9 0 1 0 12.04 2Zm5.8 14c-.2.7-1.4 1.3-2 1.4-.5.1-1.2.1-3.7-.9-3.1-1.3-5.1-4.4-5.2-4.6-.2-.2-1.2-1.6-1.2-3s.8-2.1 1-2.4c.3-.3.6-.3.8-.3h.6c.2 0 .5-.1.7.5l1 2.3c.1.2.1.4 0 .6l-.4.6c-.2.2-.3.4-.1.7.2.3.8 1.300 1.700 2.100 1.200 1 2.200 1.400 2.500 1.500.3.2.5.1.7-.1l1-1.200c.2-.3.4-.2.7-.1l2.200 1.100c.3.1.5.2.6.3.1.2.1.8-.1 1.500Z"/></svg></span>
+        <span class="txt"><b>Advertise with me</b><small>Chat on WhatsApp: +234 802 292 7540</small></span>
+        <span class="go" aria-hidden="true">↗</span>
+      </a>
+    </li>
+    <li>
+      <a class="btn mail" href="mailto:Emmanueladeboye309@gmail.com?subject=Advert%20or%20Business%20Enquiry&amp;body=Hello%2C%20">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm9 7.2L4.5 7v.1L12 13l7.500-5.900V7L12 12.200Z"/></svg></span>
+        <span class="txt"><b>Email me</b><small>Emmanueladeboye309@gmail.com</small></span>
+        <span class="go" aria-hidden="true">↗</span>
+      </a>
+    </li>
+    <li>
+      <a class="btn biz" href="https://wa.me/2348022927540?text=Hello%2C%20I%20want%20to%20talk%20business." target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4h6a2 2 0 0 1 2 2v1h3a2 2 0 0 1 2 2v9a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V9a2 2 0 0 1 2-2h3V6a2 2 0 0 1 2-2Zm0 3h6V6H9v1Z"/></svg></span>
+        <span class="txt"><b>Contact me for business</b><small>Partnerships and deals</small></span>
+        <span class="go" aria-hidden="true">↗</span>
+      </a>
+    </li>
+    <li>
+      <a class="btn web" href="https://wa.me/2348022927540?text=Hello%2C%20I%20need%20a%20website." target="_blank" rel="noopener">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20Zm6.900 9h-3a15 15 0 0 0-1.200-5.100A8 8 0 0 1 18.900 11ZM12 4c.8 1 1.600 3.100 1.900 7h-3.800C10.400 7.100 11.200 5 12 4ZM9.300 5.900A15 15 0 0 0 8.100 11h-3a8 8 0 0 1 4.200-5.100ZM5.100 13h3c.1 1.900.5 3.700 1.200 5.100A8 8 0 0 1 5.100 13Zm5 0h3.800c-.3 3.900-1.100 6-1.900 7-.8-1-1.600-3.100-1.900-7Zm4.600 5.100c.7-1.400 1.100-3.200 1.200-5.100h3a8 8 0 0 1-4.200 5.100Z"/></svg></span>
+        <span class="txt"><b>I build websites</b><small>Business, logistics, shops: any type of site</small></span>
+        <span class="go" aria-hidden="true">↗</span>
+      </a>
+    </li>
+  </ul>
+
+  <h2 class="sec">Watch my movies</h2>
+  <ul class="links">
+    <li>
+      <div class="btn soon" role="note">
+        <span class="ico"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7L8 5Z"/></svg></span>
+        <span class="txt"><b>Movie links</b><small>New movies are on the way</small></span>
+        <span class="pill">Coming soon</span>
+      </div>
+    </li>
+  </ul>
+
+  <footer>Made with laughs 🎬</footer>
+</main>
+</body>
+</html>
